@@ -88,42 +88,27 @@ nav {
 }
 
 .posts{
-    width: 70%;
+    width: 60%;
 }
 .post-single {
-    margin-top: 30px;
-    background-color: #2a3a4d;
-    color: #fff;
-    padding: 20px;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    margin-top: 30px;
+    background-color: #2a3a4d;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 20px;
+    
 }
-
-#img-usuario {
+.post-content{
+    padding:0 30px;
+}
+.post-content img{
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    margin-right: 10px;
-}
-
-.post-content h3{
-    margin-top: 5px;
-    margin-left: 40px;
-
-}
-#img-post{
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-}
-#legenda{
-    margin-left: 40px;
-    margin-right: 40px;
+    
 }
 
 .siderbar{
