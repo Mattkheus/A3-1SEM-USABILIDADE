@@ -1,10 +1,12 @@
 @import url(https://fonts.google.com/specimen/JetBrains+Mono);
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'JetBrains Mono', monospace;
 }
+
 body {
     padding-top: 50px;
     flex-direction: column;
@@ -12,13 +14,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    height: 100vh;
     background-size: cover;
     background-position: center;
+    height: 100vh;
     background-color: #151d27;
 }
 
-/* Menu */
+/*Menu*/
 header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -80,7 +82,7 @@ nav {
     color: #000;
 }
 
-/* Conteudo */
+/* Main */
 main{
     width: 100%;
     height: 100%;
@@ -88,71 +90,33 @@ main{
     align-items: center;
     margin:0 auto;
 }
-.pesquisa{
-    margin-left: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: #fff;
-}
-.pesquisa input{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 50px;
-    padding: 15px;
-    padding-right: 600px;
-}
-.container{
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150pxs;
-    gap: 20px;
-    transition: all 0.3s;
-}
-.container :hover{
-    transform: translateX(5px);
-    transform: translateY(5px);
-    background-color: #086bad;
-    color: #000;
+
+h2{
+    margin-top: 30px;
+    color: #da9707;
+    margin-left: 70px;
+    font-size: 40px;
 }
 
-.container div {
-    padding: 50px;
-    background-color: #2a3a4d;
-    border-radius: 20px;
+.info{
+    width: 70%;
+    margin-left: 70px;
 }
 
-.container div img{
-    margin-left: 80px;
-    margin-bottom: 10px;
-}
-
-.container div a{
-    text-decoration: none;
+.info h3{
+    margin-top: 30px;
     font-size: 20px;
+    color: #086bad;
 }
 
-#controle{
-    margin-left:55px;
-    width: 200px;
-    margin-bottom: 10px;
+.info p{
+    margin-top: 10px;
+    color:#fff;
+}
 
-}
-#pagamento{
-    margin-bottom: 10px;
-    margin-left: 65px;
-    width: 200px;
-}
-.container div a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
 .contato{
     height: 200px;
-    margin-left: 50px;
+    margin-left: 70px;
     display: flex;
     
 }
